@@ -33,6 +33,10 @@ xlab("Year") + ylab(expression("Total" ~ PM[2.5] ~ "Emissions (tons)"))
 dev.off()
 print ("plot3.png is now available")
 
+
+#Question 3: Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City?
+#Which have seen increases in emissions from 1999–2008? 
+#Use the ggplot2 plotting system to make a plot answer this question.
 #Answer:
 #Non-road (red line): According to data from the plot, a gradual decline gradient can be seen from 1999 to 2002, followed by a plateu gradient till 2005. From 2005-2008, the data resumed the the gradual decline gradient.
 #Nonpoint (green line): This data has a steep decline gradient from 1999 to 2002, followed by a followed by a plateu gradient till 2005. From 2005-2008, a farther gradual decline gradient of emissions is seen. 

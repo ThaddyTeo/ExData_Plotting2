@@ -31,7 +31,8 @@ plot(names(tPM25y), tPM25y, type = "l",
 dev.off()
 print ("plot2.png is now available")
 
-# Answer to question 2:
-# Accordingly to the data reflected in plot2.png, there is an indication of a sharp decline between 1999 and 2002.
+#Question 2: Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") from 1999 to 2008? 
+#Use the base plotting system to make a plot answering this question.
+# Answer: Accordingly to the data reflected in plot2.png, there is an indication of a sharp decline between 1999 and 2002.
 # This is folowed by a sharp increase which was seen in the data from 2002 to 2005. After which a sharp gradient decline was
 # noticed from 2005 to 2008.

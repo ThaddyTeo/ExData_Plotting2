@@ -34,7 +34,8 @@ plot(names(tPM25y), tPM25y, type = "l",
 dev.off()
 print ("plot1.png is now available")
 
-# Answer to question 1:
-#Yes, from plot1.png, we can observed that there is a declined from 1999 to 2002. 
+#Question 1: Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? 
+#Using the base plotting system,make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
+#Answer: Yes, from plot1.png, we can observed that there is a declined from 1999 to 2002. 
 #However between 2002 and 2005, the gradient of the decline mellowed, 
 #which was followed by a sharper gradient of decline from 2005 to 2008.

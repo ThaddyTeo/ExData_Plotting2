@@ -39,3 +39,8 @@ ggtitle(expression("Motor Vehicle" ~ PM[2.5] ~ "Emissions in Baltimore City by Y
 ylab(expression("Total" ~ PM[2.5] ~ "Emissions (tons)"))
 dev.off()
 print ("plot5.png is now available")
+
+#Question 5: How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City? 
+#Answer: Based on the graph shown on plot5.png, there is a sharp decline of PM2.5 emissions from 1999-2002.
+# Which is followed by a gradual gradient decrease from 2002 to 2005 and a steeper decrease in gradient
+# 2005 - 2008

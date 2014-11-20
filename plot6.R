@@ -45,3 +45,8 @@ ggtitle(expression("Motor Vehicle PM[2.5] Emission Levels\nLos Angeles County, C
 xlab("Year") + ylab(expression("Levels of" ~ PM[2.5] ~ " Emissions"))
 dev.off()
 print ("plot6.png is now available")
+
+#Question 6: Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources 
+#in Los Angeles County, California (fips == "06037"). 
+#Which city has seen greater changes over time in motor vehicle emissions?
+# Answer: Los Angeles County, as its total gradient over time is larger than Baltimore City

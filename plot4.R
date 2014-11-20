@@ -42,6 +42,6 @@ theme(legend.position='none') + scale_colour_gradient(low='red', high='black')
 dev.off()
 print ("plot4.png is now available")
 
-#Answer:
-#According to the data as seen on Plot4.png, we ca see that there is a decline of Total coal emissions of PM2.5 from 199-2002.
+#Question 4: Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
+#Answer:According to the data as seen on Plot4.png, we ca see that there is a decline of Total coal emissions of PM2.5 from 199-2002.
 #After which it was followed by a slight gradient increase from 2002-2005. From 2005-2008 we can see a sharp from of the PM2.5 Coal emissions.
